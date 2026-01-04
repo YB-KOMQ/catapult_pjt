@@ -1,15 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./index.css";
-
-const rootElement = document.getElementById("root");
-if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
+/* 기본 리셋 + 전체 폰트/배경 설정 */
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
-ReactDOM.createRoot(rootElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: #f8fafc; /* 현재 index.html에서 쓰던 배경색과 동일 */
+  color: #0f172a;
+}
+
+/* root가 화면 전체를 쓰도록 */
+#root {
+  min-height: 100%;
+}
