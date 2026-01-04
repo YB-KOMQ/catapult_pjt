@@ -1,0 +1,7 @@
+{
+  "name": "Industrial Catapult DOE Simulator Pro",
+  "description": "A professional-grade catapult simulation tool designed for Design of Experiments (DOE) education and industrial quality management training. Features real-time physics visualization, data logging, and an integrated AI assistant for statistical analysis guidance.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
